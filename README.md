@@ -43,7 +43,7 @@ This repository contains the academic system project for the Korea ASEAN Digital
 5. **Run the frontend app:**
    ```sh
    cd ../frontend
-   npm run dev
+   npm start
    ```
 
 ## License
