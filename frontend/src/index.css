@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@layer components {
+    .btn-primary {
+        @apply bg-white px-4 py-2 border rounded-full m-2 border-blue-500 hover:cursor-pointer hover:ring hover:ring-blue-400 transition-all duration-200
+    }
+
+    .card {
+        @apply p-8 m-2 rounded-md bg-white flex flex-col gap-2
+    }
+}
