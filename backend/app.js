@@ -9,6 +9,11 @@ const authRoutes = require('./routes/auth');
 const scoreRoutes = require('./routes/scores');
 
 const app = express();
+
+app.get('/api/health', (req, res) => {
+  res.json({ status: 'ok' });
+});
+
 app.use(cors());
 app.use(express.json());
 app.use(passport.initialize());
